@@ -1,0 +1,184 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress Plugin: WP-Polls										|
+|	Copyright (c) 2012 Lester "GaMerZ" Chan									|
+|																							|
+|	File Written By:																	|
+|	- Lester "GaMerZ" Chan															|
+|	- http://lesterchan.net															|
+|																							|
+|	File Information:																	|
+|	- Polls CSS File																	|
+|	- wp-content/plugins/wp-polls/polls-css.css								|
+|																							|
++----------------------------------------------------------------+
+*/
+.poll-page {
+    min-height:100vh;
+    background-position-x: center !important;
+    text-align:center;
+    
+}
+.poll-page .builder-section-overlay {
+    background-color: rgba(128, 128, 128, 0.4);
+}
+.admin-bar .poll-page {
+    min-height:calc(100vh - 48px);
+}
+
+.wp-polls-archive {
+	/* background-color: #ffffff; */
+}
+.wp-polls, .wp-polls-form {
+	/* background-color: #ffffff; */
+    border:none;
+	box-shadow: 1px 8px 15px #666;
+	background-color: rgba(255, 255, 255, 0.3);
+    box-shadow:0 5px 50px rgba(0, 0, 0, 0.5);
+}
+.wp-polls ul li, .wp-polls-ul li, .wp-polls-ans ul li {
+	text-align: left;
+    background-image: none;
+    background-color: rgba(245, 0, 9, 0.28);
+    margin: 0 0 7px;
+    padding: 10px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.75);
+}
+.wp-polls ul, .wp-polls-ul, .wp-polls-ans ul  {
+	text-align: left;
+	list-style: none;
+	float: none;
+	display: inline-block;
+	max-width: 350px;
+	margin: auto;
+	padding: 20px;
+	background-color: rgba(242, 93, 33, 0.2);
+    margin-bottom: 22px;
+    box-shadow: inset 1px 3px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+.wp-polls ul li:before, .wp-polls-ans ul li:before, #sidebar ul ul li:before {
+	content: '';
+}
+.wp-polls IMG, .wp-polls LABEL , .wp-polls INPUT, .wp-polls-loading IMG, .wp-polls-image IMG {
+	display: inline;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+}
+.wp-polls input[type="checkbox"] {
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3), inset 1px 2px 2px rgba(0, 0, 0, 0.4), 0 1px 5px #fff;
+}
+.wp-polls-ul {
+	padding: 0px;
+	margin: 0px 0px 10px 10px;
+}
+.wp-polls-ans {
+	width:100%;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+	/* background-color: #ffffff; */
+	text-align: center;
+	/* background-color: #ccc; */
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+.wp-polls-loading {
+	display: none;
+	text-align: center;
+	height: 16px;
+	line-height: 16px;
+}
+.wp-polls-image {
+	border: 0px;
+}
+.wp-polls .Buttons {
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background-color: rgba(121, 183, 155, 0.64);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.65em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    min-width: 200px;
+    -webkit-transition: box-shadow .2s ease;
+    transition: box-shadow .2s ease;
+}
+.wp-polls .Buttons:hover {
+	box-shadow:1px 8px 20px rgba(0, 0, 0, 0.4);
+}
+/* Polls Archive Paging */
+.wp-polls-paging a, .wp-polls-paging a:link {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.wp-polls-paging a:visited {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.wp-polls-paging a:hover {	
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.wp-polls-paging a:active {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.wp-polls-paging span.pages {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px 2px 2px 2px;
+	color: #000000;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+.wp-polls-paging span.current {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	font-weight: bold;
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.wp-polls-paging span.extend {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;	
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+body:not(.logged-in) .results li {
+    display:none;
+}
+.thank-you-for-voting {
+    text-shadow:1px 2px 3px #666;
+    text-align:center;
+}
+#bmemail {
+    margin:auto;
+    padding:25px;
+    box-shadow:1px 2px 5px #666;
+    max-width:500px;
+    background-color:rgba(255, 255, 255, 0.95);
+    margin-top: 10vh;
+}
