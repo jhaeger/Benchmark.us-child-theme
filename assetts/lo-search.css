@@ -1,0 +1,133 @@
+#lo-list .list {
+    list-style:none;
+    display: block;
+    border: 1px solid rgb(234, 236, 238);
+    padding-left:0;
+    margin:auto;
+    text-align:center;
+    padding-top:5px;
+    border-top: none;
+    box-shadow: inset 0 3px 8px #666;
+    background-color: #efefef;
+}
+#lo-list .list li {
+    text-align:left;
+    box-shadow: 0 3px 8px #666;
+    margin: 0 5px 9px;
+    padding: 0 10px 8px;
+    display: block;
+    margin: 5px auto 9px;
+    text-align: left;
+    border-radius:3px;
+    max-width: 607px;
+    background: -webkit-linear-gradient(top left, #fff, #fff, #efefef, #ddd);
+    background: linear-gradient(to bottom right, #fff, #fff, #efefef, #ddd);
+}
+#lo-list table {
+    border-right: none;
+    margin-bottom:0;
+    border-radius: 5px;
+    border: none;
+    border:1px solid #eaecee;
+}
+#lo-list table .active {
+    box-shadow: 0 3px 8px #666;
+}
+#lo-list span.name {
+    font-weight:bold;
+    display:inline-block;
+}
+#lo-list .nmls {
+    font-size: medium;
+    background-color: #171717;
+    color: #fff;
+    padding: 2px 2px 1px;
+    display:inline-block;
+}
+#lo-list .alignleft {
+    margin-right: 2rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #062373, 0 0 3px #062373;
+    width: 75px;
+}
+#lo-list .search {
+    width:100%;
+}
+#lo-list .search:hover, 
+#lo-list .search:focus{
+    box-shadow: inset 0 1px 2px #aaa;
+}
+#lo-list .search::-webkit-input-placeholder {
+   color: #ccc;
+}
+
+#lo-list .search:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;  
+}
+
+#lo-list .search::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc;  
+}
+
+#lo-list .search:-ms-input-placeholder {  
+   color: #ccc;  
+}
+#lo-list button {
+    background-color: #062373;
+    box-shadow: 0 1px 2px #000;
+    padding: 1rem 1.5rem;
+}
+#lo-list .sort-container {
+    display:inline-block;
+    float:right;
+    border:none;
+    margin-bottom:11px;
+}
+#lo-list .search-container {
+    display:block;
+    margin-bottom:10px;
+}
+#lo-list .sort-order {
+    text-align:left;
+    display:inline-block;
+    color: #666;
+}
+#lo-list .AZ, 
+#lo-list .ZA {
+    text-align:right;
+    color: #062373;
+}
+#lo-list .by-name, 
+#lo-list .by-state {
+    font-size:.75em;
+}
+#lo-list td {
+    display:block;
+    border: none;
+}
+#lo-list .sort-text {
+    height: 68%;
+    border-top: none;
+}
+#lo-list .fa-phone-square {
+    color:#062373;
+}
+@media screen and (max-width:430px) {
+    .by-name small,
+    .by-state small {
+        display:none;
+    }
+    #lo-list span.name {
+        display:block;
+    }
+    #lo-list .sort-order {
+        text-align: left;
+        display: inline-block;
+        margin-top: 1px;
+        box-shadow: inset -1px 0 2px #aaa;
+        background: -webkit-linear-gradient(#efefef, #fff);
+        background: linear-gradient(#efefef, #fff);
+        text-shadow: 0 1px 1px #bbb;
+        padding:3px;
+    }
+}

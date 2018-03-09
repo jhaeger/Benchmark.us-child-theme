@@ -1,0 +1,236 @@
+@media screen and (min-width:768px) and (max-width: 991px) {
+    .nav-stacked>li {
+        display: inline-block;
+    }
+    .nav-stacked>li:not(.active) {
+        -webkit-box-shadow: inset 1px 1px 7px rgba(0, 0, 0, 0.1);
+        box-shadow: inset 1px 1px 7px rgba(0, 0, 0, 0.1);
+    }
+    .nav {
+        padding-left: 3px;
+        padding-bottom: 2px;
+        padding-right: 3px !important;
+        padding-top: 1px;
+        margin-right: 15px;
+        margin-left: 15px;
+        -webkit-box-shadow: 0 0 3px #eee;
+        box-shadow: 0 0 3px #eee;
+        border: 1px solid #eee;
+        text-align: justify;
+        background-color: #f8f8f8 !important;
+    }
+}
+
+
+/*Replace floify's blob background with a gradient*/
+
+@media only screen and (min-width: 992px) {
+    .desktop-apply-now-page-remainder-blob-background {
+        background: transparent;
+    }
+    .desktop-apply-now-apply-button {
+        background-color: #062373;
+        border-color: rgba(0, 0, 0, 0.3);
+        -webkit-transition: border-color .1s ease, -webkit-box-shadow .1s ease;
+        transition: border-color .1s ease, -webkit-box-shadow .1s ease;
+        transition: box-shadow .1s ease, border-color .1s ease;
+        transition: box-shadow .1s ease, border-color .1s ease, -webkit-box-shadow .1s ease;
+    }
+    .desktop-apply-now-apply-button:hover {
+        background-color: #062373;
+        -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        border-color: #062373;
+    }
+    .desktop-apply-now-login-link a,
+    .desktop-apply-now-reset-password-link a,
+    .desktop-apply-now-reset-password-from-login-link a {
+        color: #062373 !important;
+    }
+    #desktop-apply-now-login-modal {
+        margin-bottom: 10px;
+        max-height: 430px;
+    }
+    #desktop-apply-now-create-account-modal {
+        margin-bottom: 10px;
+        max-height: 470px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .mobile-apply-now-page-remainder-blob-background {
+        background: transparent;
+    }
+    .mobile-apply-now-apply-button {
+        background-color: #062373;
+        border-color: rgba(0, 0, 0, 0.3);
+        -webkit-transition: border-color .1s ease, -webkit-box-shadow .1s ease;
+        transition: border-color .1s ease, -webkit-box-shadow .1s ease;
+        transition: box-shadow .1s ease, border-color .1s ease;
+        transition: box-shadow .1s ease, border-color .1s ease, -webkit-box-shadow .1s ease;
+    }
+    .mobile-apply-now-apply-button:hover {
+        background-color: #062373;
+        border-color: #062373;
+        -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    }
+    .mobile-apply-now-login-link a,
+    .mobile-apply-now-reset-password-link a,
+    .mobile-apply-now-reset-password-from-login-link a {
+        color: #062373 !important;
+    }
+}
+
+body,
+.wrapper {
+    background: transparent;
+}
+
+img[href="/logo-apply-now"],
+#desktop-apply-now-house-blob-background,
+#mobile-apply-now-house-blob-background {
+    display: none;
+}
+
+#mobile-apply-now-welcome-modal a,
+a#mobile-apply-now-login-from-create-link,
+.mobile-apply-now-login-link a,
+.mobile-apply-now-reset-password-from-login-link a #desktop-apply-now-welcome-modal a,
+a#desktop-apply-now-login-from-create-link,
+.desktop-apply-now-login-link a,
+.desktop-apply-now-reset-password-from-login-link a {
+    color: #062373;
+}
+
+#mobile-apply-now-welcome-modal button,
+.mobile-apply-now-apply-button {
+    background-color: #062373;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*Change Apply Now link in Navigation back to Benchmark colors*/
+
+.nav a.tip[href="/apply"] {
+    color: #062373 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #062373;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nav a.tip[href="/apply"]:hover,
+.nav a.tip[href="/apply"]:active {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), inset 0 5px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), inset 0 5px 10px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+    padding: 8px 30px;
+}
+
+.btn-success {
+    color: #062373;
+    background-color: transparent;
+    border: 2px solid #062373;
+    font-weight: bold;
+    -webkit-box-shadow: inset 1px 1px 3px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 1px 3px -1px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    margin: 0 7px;
+    -webkit-transition: box-shadow 0.2s ease, text-shadow 0.2s ease;
+    -webkit-transition: text-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+    transition: text-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, text-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, text-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+}
+
+.btn-success:hover {
+    background-color: #fff;
+    color: #062373;
+    border: 2px solid #062373;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-shadow: none;
+    -webkit-transition: box-shadow 0.2s ease, text-shadow 0.2s ease;
+    -webkit-transition: text-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+    transition: text-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, text-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, text-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+}
+
+#allthecolumns ul li:not(.active) a:hover {
+    color: #062373;
+    -webkit-box-shadow: 0 0 20px -10px #222;
+    box-shadow: 0 0 20px -10px #222;
+    background-color: rgba(250, 250, 250, 0.7);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #062373;
+    -webkit-box-shadow: 0 0 10px -2px #222;
+    box-shadow: 0 0 10px -2px #222;
+}
+
+.nav-pills > li.active > a:hover {
+    background-color: #082b8c;
+    color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #062373;
+    border-color: #ccc;
+    padding: 8px 30px;
+    -webkit-transition: box-shadow 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+    -webkit-transition: background-color 0.2s ease, border 0.2s ease, -webkit-box-shadow 0.2s ease;
+    transition: background-color 0.2s ease, border 0.2s ease, -webkit-box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease, border 0.2s ease, -webkit-box-shadow 0.2s ease;
+    margin-bottom: 15px;
+}
+
+.btn-primary:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    background-color: #082b8c;
+    border-color: #082b8c;
+}
+
+a {
+    color: #082b8c;
+}
+
+a:hover {
+    color: #666;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #062373;
+    border-color: #062373;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #082b8c;
+    border-color: #082b8c;
+}
+
+.navbar-toggle:hover {
+    background: #082b8c !important;
+}
+
+.content {
+    min-height: calc(100vh - 99px);
+}
+
+.applyNowPropertyStateEnabledSubjectPropertyAddress,
+.applyNowPropertyStateEnabledSubjectPropertyAddress {
+    display: none !important;
+}

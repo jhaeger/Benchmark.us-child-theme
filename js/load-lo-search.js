@@ -1,0 +1,1 @@
+jQuery(document).ready(function() {jQuery("#lo-search-box").load('/wp-content/themes/make-child/lo-list.html');});
